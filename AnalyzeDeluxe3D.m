@@ -26,7 +26,7 @@ close all % close all figures
 clc % clear all text from command window
 %% Python Check
 %% Run PYTHON Analysis
-pythonCall = {'python3','py3','python','py'};
+pythonCall = {'C:/Users/Administrator/miniconda3/envs/STRESS/python.exe'};
 pyCallIdx = 0;
 for n = 1:length(pythonCall)
     testInputString = [pythonCall{n},' test_import.py'];
